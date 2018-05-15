@@ -1,0 +1,1428 @@
+﻿Log file open, 05/14/18 17:49:29
+LogInit:Display: Running engine for game: Pavlov
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1993018735) SRandInit(-1993018735).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.131406
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Epic/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.14-21.49.31:247][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.14-21.49.31:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.14-21.49.31:263][  0]LogInit: Computer: DESKTOP-AS4V5HP
+[2018.05.14-21.49.31:263][  0]LogInit: User: Kaizien
+[2018.05.14-21.49.31:263][  0]LogInit: CPU Page size=65536, Cores=8
+[2018.05.14-21.49.31:263][  0]LogInit: High frequency timer resolution =2.924194 MHz
+[2018.05.14-21.49.31:263][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.14-21.49.31:263][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.14-21.49.31:263][  0]LogMemory: Process Physical Memory: 266.99 MB used, 266.99 MB peak
+[2018.05.14-21.49.31:263][  0]LogMemory: Process Virtual Memory: 266.25 MB used, 266.25 MB peak
+[2018.05.14-21.49.31:263][  0]LogMemory: Physical Memory: 7859.15 MB used,  8457.62 MB free, 16316.77 MB total
+[2018.05.14-21.49.31:263][  0]LogMemory: Virtual Memory: 686.84 MB used,  8457.62 MB free, 134217728.00 MB total
+[2018.05.14-21.49.31:345][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.05.14-21.49.32:299][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.14-21.49.32:411][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.05.14-21.49.32:411][  0]LogD3D11RHI:       7986/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.14-21.49.32:413][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.14-21.49.32:413][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.14-21.49.32:413][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.14-21.49.32:428][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.14-21.49.32:428][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.14-21.49.32:428][  0]LogWindows: EnumDisplayDevices:
+[2018.05.14-21.49.32:428][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.05.14-21.49.32:429][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.05.14-21.49.32:429][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.14-21.49.32:429][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.14-21.49.32:429][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.14-21.49.32:429][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.05.14-21.49.32:429][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.14-21.49.32:429][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.14-21.49.32:429][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.14-21.49.32:508][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.14-21.49.32:581][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.14-21.49.32:674][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Intermediate/Shaders/WorkingDirectory/10052/).
+[2018.05.14-21.49.32:674][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kaizien/AppData/Local/Temp/UnrealShaderWorkingDir/A71454F5476A4833BE3C909B15C66EE9/'.
+[2018.05.14-21.49.32:674][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.14-21.49.33:896][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.14-21.49.33:967][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.14-21.49.34:034][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.14-21.49.34:100][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.14-21.49.34:167][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.14-21.49.34:240][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.14-21.49.34:315][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.14-21.49.34:401][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.14-21.49.34:475][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.14-21.49.34:549][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.14-21.49.34:623][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.14-21.49.34:689][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.14-21.49.34:756][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.14-21.49.34:834][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.14-21.49.34:917][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.14-21.49.35:077][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.14-21.49.35:077][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.14-21.49.35:122][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.14-21.49.35:230][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.14-21.49.35:274][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.14-21.49.35:354][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.14-21.49.35:424][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.14-21.49.35:497][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.14-21.49.35:571][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.14-21.49.35:571][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.14-21.49.36:023][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache: Loaded boot cache 0.07s 62MB C:/Users/Kaizien/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaizien/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.14-21.49.36:091][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.14-21.49.36:114][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.14-21.49.36:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaizien/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.14-21.49.36:140][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.14-21.49.36:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.14-21.49.36:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.14-21.49.36:547][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.14-21.49.36:552][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.14-21.49.36:803][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.14-21.49.36:853][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.14-21.49.36:909][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.14-21.49.36:909][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.14-21.49.36:909][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.14-21.49.38:790][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: pavlov, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2014131361
+[2018.05.14-21.49.38:842][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2018.05.14-21.49.38:940][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.065705 seconds
+[2018.05.14-21.49.38:949][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.05.14-21.49.38:949][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2018.05.14-21.49.38:949][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.14-21.49.39:014][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.14-21.49.41:111][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.14-21.49.41:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.14-21.49.41:702][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.05.14-21.49.41:703][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:703][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:718][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.14-21.49.41:728][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.05.14-21.49.41:728][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/LightingModel.LightingModel for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:728][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:730][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.05.14-21.49.41:731][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/MaterialAO.MaterialAO for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:731][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:733][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.05.14-21.49.41:733][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Metallic.Metallic for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:733][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:735][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.05.14-21.49.41:736][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Opacity.Opacity for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:736][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:738][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.05.14-21.49.41:738][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Roughness.Roughness for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:738][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:753][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.05.14-21.49.41:754][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:754][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:756][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.05.14-21.49.41:757][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/SubsurfaceColor.SubsurfaceColor for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:757][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.41:759][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.05.14-21.49.41:760][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/WorldNormal.WorldNormal for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.14-21.49.41:760][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.05.14-21.49.42:175][  0]SourceControl: Info Source control is disabled
+[2018.05.14-21.49.42:175][  0]SourceControl: Info Source control is disabled
+[2018.05.14-21.49.42:235][  0]SourceControl: Info Source control is disabled
+[2018.05.14-21.49.42:292][  0]SourceControl: Info Source control is disabled
+[2018.05.14-21.49.43:884][  0]LogEngine: Initializing Engine...
+[2018.05.14-21.49.44:504][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-224101F2
+[2018.05.14-21.49.44:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.14-21.49.44:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.14-21.49.44:783][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.14-21.49.44:830][  0]LogInit: XAudio2 using 'HTC-VIVE (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.14-21.49.44:846][  0]LogInit: FAudioDevice initialized.
+[2018.05.14-21.49.44:904][  0]LogDerivedDataCache: Saved boot cache 0.06s 62MB C:/Users/Kaizien/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.05.14-21.49.44:922][  0]LogInit: Texture streaming: Enabled
+[2018.05.14-21.49.45:012][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.14-21.49.45:114][  0]LogInit: Transaction tracking system initialized
+[2018.05.14-21.49.45:472][  0]BlueprintLog: New page: Editor Load
+[2018.05.14-21.49.46:385][  0]LocalizationService: Info Localization service is disabled
+[2018.05.14-21.49.47:409][  0]LogConsoleResponse:Display: 
+[2018.05.14-21.49.47:537][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.14-21.49.47:537][  0]LogCook:Display: Mobile HDR setting 0
+[2018.05.14-21.49.47:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/' took 0.01s
+[2018.05.14-21.49.48:318][  0]CustomMapToolsLog: Initializing Pavlov's workshop editor plugin
+[2018.05.14-21.49.48:416][  0]CustomMapToolsLog: Visiting C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767
+[2018.05.14-21.49.48:846][  0]SourceControl: Info Source control is disabled
+[2018.05.14-21.49.48:846][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.14-21.49.48:847][  0]LightingResults: New page: Lighting Build
+[2018.05.14-21.49.48:899][  0]MapCheck: New page: Map Check
+[2018.05.14-21.49.48:899][  0]LightingResults: New page: Lighting Build
+[2018.05.14-21.49.49:151][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.14-21.49.49:169][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.14-21.49.49:174][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.14-21.49.49:178][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.14-21.49.49:236][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.015ms to complete.
+[2018.05.14-21.49.49:236][  0]LogFileHelpers: Loading map 'Template_Default' took 0.390
+[2018.05.14-21.49.49:510][  0]LogCollectionManager: Loaded 1 collections in 0.001396 seconds
+[2018.05.14-21.49.49:613][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/Collections/' took 0.01s
+[2018.05.14-21.49.49:613][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/Developers/Kaizien/Collections/' took 0.01s
+[2018.05.14-21.49.49:613][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/Collections/' took 0.01s
+[2018.05.14-21.49.49:613][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2018.05.14-21.49.49:613][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2018.05.14-21.49.49:626][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2254 classes and 456 folders.
+[2018.05.14-21.49.49:692][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.14-21.49.49:760][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.14-21.49.49:808][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.14-21.49.49:862][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.14-21.49.49:995][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.14-21.49.49:995][  0]LogLoad: (Engine Initialization) Total time: 21.72 seconds
+[2018.05.14-21.49.49:995][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2018.05.14-21.49.49:995][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.14-21.49.49:995][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.14-21.49.50:005][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.14-21.49.50:006][  0]LogOcInput: OculusInput pre-init called
+[2018.05.14-21.49.50:044][  0]LogContentStreaming: Texture pool size now 2500 MB
+[2018.05.14-21.49.50:045][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.14-21.49.50:050][  0]LogSlate: Took 0.000508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.14-21.49.50:057][  0]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.14-21.49.50:244][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 4 (Frame:2).
+[2018.05.14-21.49.50:334][  1]LogAssetRegistry: Asset discovery search completed in 11.5133 seconds
+[2018.05.14-21.49.50:334][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
+[2018.05.14-21.49.50:334][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000023 seconds (updated 0 objects)
+[2018.05.14-21.49.56:878][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-21.50.58:861][227]LogSteamVRController: Controller role for device 3 is 0 (invalid=0, left=1, right=2).
+[2018.05.14-21.50.58:861][227]LogSteamVRController:Warning: Controller device 3 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2018.05.14-21.50.58:861][227]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2018.05.14-21.51.01:585][299]LogSteamVRController: Controller role for device 4 is 0 (invalid=0, left=1, right=2).
+[2018.05.14-21.51.01:585][299]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2018.05.14-21.51.01:585][299]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2018.05.14-21.51.25:520][418]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.14-21.51.25:547][418]LogAIModule: Creating AISystem for world TwitchMap
+[2018.05.14-21.51.25:791][418]Cmd: MAP LOAD FILE="C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.14-21.51.25:792][418]LightingResults: New page: Lighting Build
+[2018.05.14-21.51.25:794][418]LoadErrors: New page: Loading map: TwitchMap.umap
+[2018.05.14-21.51.25:795][418]MapCheck: New page: Map Check
+[2018.05.14-21.51.25:795][418]LightingResults: New page: Lighting Build
+[2018.05.14-21.51.25:820][418]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.14-21.51.25:847][418]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.14-21.51.25:907][418]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.271ms to complete.
+[2018.05.14-21.51.25:907][418]LogFileHelpers: Loading map 'TwitchMap' took 0.117
+[2018.05.14-21.52.01:069][650]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.14-21.52.01:186][651]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pavlov
+
+[2018.05.14-21.52.01:186][651]LogTemp:Display: CWD: E:\Epic\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2018.05.14-21.52.01:186][651]LogTemp:Display: Initial Dir: E:\Epic\UE_4.15
+
+[2018.05.14-21.52.01:186][651]LogTemp:Display: Env CWD: E:\Epic\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2018.05.14-21.52.01:186][651]LogTemp:Display: BranchPath = DESKTOP-AS4V5HP/E/Epic/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-AS4V5HP/E/Epic/UE_4.15/Engine/Binaries
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Kaizien\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2018.05.14-21.52.01:207][652]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2018.05.14-21.52.08:209][124]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.14-21.52.13:301][487]LogSavePackage: Save=66.72ms
+[2018.05.14-21.52.13:301][487]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMapA9EBA46D48962EB834A2958302D3CBDC.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-21.52.13:303][487]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-21.52.16:309][752]LogEditorViewport: Clicking on Actor (LMB): Pavlov_KillVolume (Pavlov_KillVolume)
+[2018.05.14-21.53.14:993][695]LogEditorViewport: Clicking on Actor (LMB): Pavlov_KillVolume (Pavlov_KillVolume)
+[2018.05.14-21.53.15:649][750]LogEditorViewport: Clicking on Actor (LMB): Pavlov_KillVolume (Pavlov_KillVolume)
+[2018.05.14-21.59.43:167][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-21.59.43:680][612]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn11)
+[2018.05.14-21.59.44:821][706]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-21.59.57:076][728]Cmd: DELETE
+[2018.05.14-21.59.57:076][728]Cmd: ACTOR DELETE
+[2018.05.14-21.59.57:276][728]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-21.59.57:289][728]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.05.14-21.59.58:533][838]Cmd: EDIT COPY
+[2018.05.14-21.59.58:770][859]Cmd: EDIT PASTE
+[2018.05.14-22.00.04:337][315]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn10)
+[2018.05.14-22.00.12:515][802]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn10)
+[2018.05.14-22.00.35:343][660]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn10)
+[2018.05.14-22.00.38:515][900]Cmd: DELETE
+[2018.05.14-22.00.38:515][900]Cmd: ACTOR DELETE
+[2018.05.14-22.00.38:516][900]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.00.38:528][900]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.14-22.00.52:328][ 56]Cmd: EDIT COPY
+[2018.05.14-22.00.52:551][ 71]Cmd: EDIT PASTE
+[2018.05.14-22.01.33:174][ 38]Cmd: EDIT CUT
+[2018.05.14-22.01.33:177][ 38]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.01.33:192][ 38]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.05.14-22.01.36:097][368]Cmd: TRANSACTION UNDO
+[2018.05.14-22.01.36:097][368]LogEditorTransaction: Undo Cut
+[2018.05.14-22.01.36:140][368]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.14-22.01.36:993][419]Cmd: TRANSACTION UNDO
+[2018.05.14-22.01.36:993][419]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.01.36:998][419]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.14-22.01.36:999][419]LogGeometryMode:Warning: Unable to resolve BoxBrush3_3 Brush in new BSP, see above
+[2018.05.14-22.01.36:999][419]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.01.37:878][497]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2018.05.14-22.01.37:878][497]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.01.38:954][589]Cmd: EDIT COPY
+[2018.05.14-22.01.48:910][418]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2018.05.14-22.01.48:910][418]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.01.58:206][218]Cmd: TRANSACTION UNDO
+[2018.05.14-22.01.58:206][218]LogEditorTransaction: Undo Modifier [Edit]
+[2018.05.14-22.02.13:332][529]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.13:332][529]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.14-22.02.14:263][581]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.14:263][581]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.36:955][412]Cmd: DELETE
+[2018.05.14-22.02.36:955][412]Cmd: ACTOR DELETE
+[2018.05.14-22.02.36:956][412]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.02.36:968][412]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.14-22.02.43:448][985]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.02.45:851][170]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.45:851][170]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.46:262][191]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.46:262][191]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.05.14-22.02.46:583][211]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.46:583][211]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.46:889][244]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.46:889][244]LogEditorTransaction: Undo Delete Actors
+[2018.05.14-22.02.46:892][244]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.02.47:143][261]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.47:144][261]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.14-22.02.47:629][298]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.47:629][298]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.47:985][324]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.47:985][324]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.02.47:988][324]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.02.48:315][348]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.48:315][348]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.02.48:318][348]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.02.48:649][375]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.48:649][375]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.02.48:651][375]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.02.48:964][400]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.48:964][400]LogEditorTransaction: Undo Edit Brush Type
+[2018.05.14-22.02.48:967][400]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.02.49:254][418]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.49:254][418]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.49:569][442]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.49:569][442]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.02.49:573][442]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2018.05.14-22.02.49:573][442]LogGeometryMode:Warning: Unable to resolve BoxBrush3_3 Brush in new BSP, see above
+[2018.05.14-22.02.49:573][442]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.02.49:934][468]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.49:934][468]LogEditorTransaction: Undo Modifier [Edit]
+[2018.05.14-22.02.50:300][494]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.50:300][494]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.14-22.02.50:740][531]Cmd: TRANSACTION UNDO
+[2018.05.14-22.02.50:740][531]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.02.50:743][531]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush3_3.BrushComponent0) Component already registered.
+[2018.05.14-22.03.00:374][403]LogGeometryMode:Warning: Unable to find BoxBrush3_3 Brush(s) in new BSP
+[2018.05.14-22.03.00:374][403]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.03.01:251][477]Cmd: DELETE
+[2018.05.14-22.03.01:256][477]Cmd: ACTOR DELETE
+[2018.05.14-22.03.01:256][477]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.03.01:269][477]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.14-22.03.03:543][706]Cmd: EDIT COPY
+[2018.05.14-22.03.03:768][726]Cmd: EDIT PASTE
+[2018.05.14-22.03.17:399][986]LogActorFactory: Actor Factory created Cube
+[2018.05.14-22.03.17:613][986]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2018.05.14-22.03.17:614][986]LogTemp:Display: Added material ShaderMap 0x00000219E0E46080 with Material 0x00000219996D8280 to ShaderMapsBeingCompiled
+[2018.05.14-22.03.17:674][986]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x00000219E0E46080
+[2018.05.14-22.03.18:198][ 20]LogActorFactory: Actor Factory created Cube
+[2018.05.14-22.03.20:269][127]Cmd: TRANSACTION UNDO
+[2018.05.14-22.03.20:269][127]LogEditorTransaction: Undo Create Actors
+[2018.05.14-22.03.23:275][305]LogTemp:Display: Finished compile of shader map 0x00000219E0E46080
+[2018.05.14-22.03.23:275][305]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x00000219E0E46080, marking material BasicShapeMaterial as finished
+[2018.05.14-22.03.23:275][305]LogTemp:Display: Marking material as finished 0x00000219996D8280
+[2018.05.14-22.03.23:448][317]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.04.10:063][469]LogActorFactory: Actor Factory created SM_Template_Map_Floor
+[2018.05.14-22.04.11:302][570]LogActorFactory: Actor Factory created SM_Template_Map_Floor
+[2018.05.14-22.04.44:102][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-22.04.59:716][839]Cmd: EDIT COPY
+[2018.05.14-22.05.00:092][873]Cmd: EDIT PASTE
+[2018.05.14-22.05.02:107][ 50]Cmd: DELETE
+[2018.05.14-22.05.02:112][ 50]Cmd: ACTOR DELETE
+[2018.05.14-22.05.02:112][ 50]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.05.02:125][ 50]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.14-22.05.22:698][897]LogSavePackage: Save=113.37ms
+[2018.05.14-22.05.22:699][897]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap279B1469477D890B305C789CC23C8ABA.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.05.22:706][897]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.05.54:996][ 65]LogActorFactory: Actor Factory created Cube
+[2018.05.14-22.05.55:778][118]LogActorFactory: Actor Factory created Cube
+[2018.05.14-22.06.22:006][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.14-22.06.26:015][542]Cmd: DELETE
+[2018.05.14-22.06.26:015][542]Cmd: ACTOR DELETE
+[2018.05.14-22.06.26:016][542]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.14-22.06.26:027][542]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.14-22.06.40:960][275]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.07.14:888][259]Cmd: EDIT COPY
+[2018.05.14-22.07.15:083][278]Cmd: EDIT PASTE
+[2018.05.14-22.07.24:415][ 94]Cmd: EDIT COPY
+[2018.05.14-22.07.24:693][108]Cmd: EDIT PASTE
+[2018.05.14-22.07.39:818][472]Cmd: EDIT COPY
+[2018.05.14-22.07.40:115][497]Cmd: EDIT PASTE
+[2018.05.14-22.07.44:009][853]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.14-22.07.55:295][867]Cmd: EDIT COPY
+[2018.05.14-22.07.55:483][882]Cmd: EDIT PASTE
+[2018.05.14-22.08.26:833][578]Cmd: DELETE
+[2018.05.14-22.08.26:833][578]Cmd: ACTOR DELETE
+[2018.05.14-22.08.26:834][578]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.08.26:850][578]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.05.14-22.08.27:513][641]Cmd: DELETE
+[2018.05.14-22.08.27:513][641]Cmd: ACTOR DELETE
+[2018.05.14-22.08.27:514][641]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.08.27:529][641]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.05.14-22.08.56:165][446]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.05.14-22.09.23:251][633]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.09.34:061][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-22.09.40:577][940]MapCheck: New page: Map Check
+[2018.05.14-22.09.40:634][940]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.09.40:636][940]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.09.40:763][940]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.09.40:776][940]LogTemp:Display: Added material ShaderMap 0x0000021999CB2780 with Material 0x00000219DFBC0100 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.40:779][940]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000021999CB2780
+[2018.05.14-22.09.40:784][940]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.09.40:785][940]LogTemp:Display: Added material ShaderMap 0x00000219C04A9980 with Material 0x00000219DFBC3100 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.40:787][940]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x00000219C04A9980
+[2018.05.14-22.09.40:789][940]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.05.14-22.09.40:791][940]LogTemp:Display: Added material ShaderMap 0x00000219C04AA780 with Material 0x00000219DFBC2200 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.40:792][940]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x00000219C04AA780
+[2018.05.14-22.09.41:376][940]LogTemp:Display: Finished compile of shader map 0x0000021999CB2780
+[2018.05.14-22.09.41:376][940]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000021999CB2780, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.09.41:376][940]LogTemp:Display: Marking material as finished 0x00000219DFBC0100
+[2018.05.14-22.09.41:390][940]LogTemp:Display: Finished compile of shader map 0x00000219C04A9980
+[2018.05.14-22.09.41:390][940]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x00000219C04A9980, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.09.41:390][940]LogTemp:Display: Marking material as finished 0x00000219DFBC3100
+[2018.05.14-22.09.41:392][940]LogTemp:Display: Finished compile of shader map 0x00000219C04AA780
+[2018.05.14-22.09.41:392][940]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x00000219C04AA780, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2018.05.14-22.09.41:392][940]LogTemp:Display: Marking material as finished 0x00000219DFBC2200
+[2018.05.14-22.09.41:393][940]TextureStreamingBuild:Display: Compiling optional shaders took 0.645 seconds.
+[2018.05.14-22.09.41:450][940]LogLevel:Display: Export Material TexCoord Scales took 0.057 seconds.
+[2018.05.14-22.09.41:472][940]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2018.05.14-22.09.41:504][940]LightingResults: New page: Lighting Build - May 14, 2018, 2:09:41 PM
+[2018.05.14-22.09.41:687][940]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.09.41:830][940]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.09.41:854][940]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.09.42:878][940]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.09.42:878][940]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.09.46:157][940]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.14-22.09.46:169][940]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.09.46:170][940]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.09.46:170][940]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.09.46:170][940]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.09.46:170][940]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.09.46:405][940]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.09.46:405][940]MapCheck: New page: TwitchMap - May 14, 2018, 2:09:46 PM
+[2018.05.14-22.09.46:451][940]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.09.46:513][940]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 108.306ms to complete.
+[2018.05.14-22.09.46:535][940]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.09.46:683][940]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.05.14-22.09.46:685][940]LogTemp:Display: Added material ShaderMap 0x00000219D5B28100 with Material 0x00000219DFBC1600 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:688][940]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer DefaultMaterial, GameThreadShaderMap 0x00000219D5B28100
+[2018.05.14-22.09.46:690][940]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.05.14-22.09.46:691][940]LogTemp:Display: Added material ShaderMap 0x000002198C30E080 with Material 0x00000219DFBC3400 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:694][940]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer DefaultMaterial, GameThreadShaderMap 0x000002198C30E080
+[2018.05.14-22.09.46:812][941]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.14-22.09.46:813][941]LogTemp:Display: Added material ShaderMap 0x000002198AFC6B00 with Material 0x000002198AFF1000 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:815][941]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_2, GameThreadShaderMap 0x000002198AFC6B00
+[2018.05.14-22.09.46:817][941]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.14-22.09.46:818][941]LogTemp:Display: Added material ShaderMap 0x000002198AFC7200 with Material 0x000002198AFF3D00 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:821][941]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_2, GameThreadShaderMap 0x000002198AFC7200
+[2018.05.14-22.09.46:867][942]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.09.46:868][942]LogTemp:Display: Added material ShaderMap 0x00000219985C7580 with Material 0x00000219979FAE00 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:871][942]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer WorldGridMaterial, GameThreadShaderMap 0x00000219985C7580
+[2018.05.14-22.09.46:876][942]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.09.46:877][942]LogTemp:Display: Added material ShaderMap 0x00000219985C7900 with Material 0x00000219979FA200 to ShaderMapsBeingCompiled
+[2018.05.14-22.09.46:880][942]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer WorldGridMaterial, GameThreadShaderMap 0x00000219985C7900
+[2018.05.14-22.09.47:744][943]LogTemp:Display: Finished compile of shader map 0x000002198AFC6B00
+[2018.05.14-22.09.47:744][943]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x000002198AFC6B00, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_2 as finished
+[2018.05.14-22.09.47:744][943]LogTemp:Display: Marking material as finished 0x000002198AFF1000
+[2018.05.14-22.09.47:746][943]LogTemp:Display: Finished compile of shader map 0x000002198AFC7200
+[2018.05.14-22.09.47:746][943]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x000002198AFC7200, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_2 as finished
+[2018.05.14-22.09.47:746][943]LogTemp:Display: Marking material as finished 0x000002198AFF3D00
+[2018.05.14-22.09.47:748][943]LogTemp:Display: Finished compile of shader map 0x000002198C30E080
+[2018.05.14-22.09.47:748][943]LogTemp:Display: Shader map FLightmassMaterialRenderer DefaultMaterial complete, GameThreadShaderMap 0x000002198C30E080, marking material FLightmassMaterialRenderer DefaultMaterial as finished
+[2018.05.14-22.09.47:748][943]LogTemp:Display: Marking material as finished 0x00000219DFBC3400
+[2018.05.14-22.09.47:751][943]LogTemp:Display: Finished compile of shader map 0x00000219D5B28100
+[2018.05.14-22.09.47:751][943]LogTemp:Display: Shader map FLightmassMaterialRenderer DefaultMaterial complete, GameThreadShaderMap 0x00000219D5B28100, marking material FLightmassMaterialRenderer DefaultMaterial as finished
+[2018.05.14-22.09.47:751][943]LogTemp:Display: Marking material as finished 0x00000219DFBC1600
+[2018.05.14-22.09.47:754][943]LogTemp:Display: Finished compile of shader map 0x00000219985C7900
+[2018.05.14-22.09.47:754][943]LogTemp:Display: Shader map FLightmassMaterialRenderer WorldGridMaterial complete, GameThreadShaderMap 0x00000219985C7900, marking material FLightmassMaterialRenderer WorldGridMaterial as finished
+[2018.05.14-22.09.47:754][943]LogTemp:Display: Marking material as finished 0x00000219979FA200
+[2018.05.14-22.09.47:757][943]LogTemp:Display: Finished compile of shader map 0x00000219985C7580
+[2018.05.14-22.09.47:757][943]LogTemp:Display: Shader map FLightmassMaterialRenderer WorldGridMaterial complete, GameThreadShaderMap 0x00000219985C7580, marking material FLightmassMaterialRenderer WorldGridMaterial as finished
+[2018.05.14-22.09.47:757][943]LogTemp:Display: Marking material as finished 0x00000219979FAE00
+[2018.05.14-22.09.50:322][ 14]Job is a success!
+[2018.05.14-22.09.50:561][ 15]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.09.50:561][ 15]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.09.50:561][ 15]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 87 MB total VRAM
+[2018.05.14-22.09.50:561][ 15]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 87 MB total VRAM
+[2018.05.14-22.09.50:561][ 15]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.09.50:562][ 15]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.09.50:618][ 15]Lightmass on DESKTOP-AS4V5HP: 1.49 sec total, 92 ms importing, 7 ms setup, 702 ms photons, 647 ms processing, 0 ms extra exporting [60/60 mappings]. Threads: 8.74 sec total, 649 ms processing.
+[2018.05.14-22.09.50:662][ 15]LogStaticLightingSystem: Illumination: 9.13 sec (59 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2018.05.14-22.09.50:662][ 15]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.09.50:662][ 15]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.09.51:146][ 15]DumpUnbuiltLightIteractions
+[2018.05.14-22.09.51:146][ 15]Lights with unbuilt interactions: 0
+[2018.05.14-22.09.51:146][ 15]
+[2018.05.14-22.09.51:146][ 15]Primitives with unbuilt interactions: 0
+[2018.05.14-22.09.51:304][ 16]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.09.51:304][ 16]MapCheck: New page: TwitchMap - May 14, 2018, 2:09:51 PM
+[2018.05.14-22.09.51:365][ 16]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.209ms to complete.
+[2018.05.14-22.10.19:667][363]LogSavePackage: Save=66.57ms
+[2018.05.14-22.10.19:667][363]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap9DD14364481C2B387A040298295F8601.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.10.19:672][363]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.10.19:702][363]LogFileHelpers: Saving map 'TwitchMap' took 0.176
+[2018.05.14-22.10.38:230][993]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.05.14-22.10.41:623][276]MapCheck: New page: Map Check
+[2018.05.14-22.10.41:655][276]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.10.41:655][276]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.10.41:690][276]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.10.41:692][276]LogTemp:Display: Added material ShaderMap 0x00000219E7C81280 with Material 0x00000219DFEAC100 to ShaderMapsBeingCompiled
+[2018.05.14-22.10.41:694][276]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x00000219E7C81280
+[2018.05.14-22.10.41:697][276]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.10.41:698][276]LogTemp:Display: Added material ShaderMap 0x0000021999CB3200 with Material 0x0000021995D43400 to ShaderMapsBeingCompiled
+[2018.05.14-22.10.41:700][276]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021999CB3200
+[2018.05.14-22.10.41:701][276]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.05.14-22.10.41:703][276]LogTemp:Display: Added material ShaderMap 0x0000021999CB3900 with Material 0x0000021995D42500 to ShaderMapsBeingCompiled
+[2018.05.14-22.10.41:705][276]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, GameThreadShaderMap 0x0000021999CB3900
+[2018.05.14-22.10.42:297][276]LogTemp:Display: Finished compile of shader map 0x00000219E7C81280
+[2018.05.14-22.10.42:297][276]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x00000219E7C81280, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.10.42:297][276]LogTemp:Display: Marking material as finished 0x00000219DFEAC100
+[2018.05.14-22.10.42:299][276]LogTemp:Display: Finished compile of shader map 0x0000021999CB3200
+[2018.05.14-22.10.42:299][276]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021999CB3200, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.10.42:299][276]LogTemp:Display: Marking material as finished 0x0000021995D43400
+[2018.05.14-22.10.42:313][276]LogTemp:Display: Finished compile of shader map 0x0000021999CB3900
+[2018.05.14-22.10.42:313][276]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 complete, GameThreadShaderMap 0x0000021999CB3900, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 as finished
+[2018.05.14-22.10.42:313][276]LogTemp:Display: Marking material as finished 0x0000021995D42500
+[2018.05.14-22.10.42:314][276]TextureStreamingBuild:Display: Compiling optional shaders took 0.628 seconds.
+[2018.05.14-22.10.42:317][276]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.10.42:322][276]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2018.05.14-22.10.42:332][276]LightingResults: New page: Lighting Build - May 14, 2018, 2:10:42 PM
+[2018.05.14-22.10.42:340][276]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.10.42:346][276]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.10.42:346][276]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.10.42:347][276]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.10.42:347][276]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.10.46:866][276]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.10.46:967][276]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.10.46:967][276]MapCheck: New page: TwitchMap - May 14, 2018, 2:10:46 PM
+[2018.05.14-22.10.46:968][276]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.10.47:028][276]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 61.116ms to complete.
+[2018.05.14-22.10.47:050][276]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.10.48:976][342]Job is a success!
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256) - 87 MB total VRAM
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256) - 87 MB total VRAM
+[2018.05.14-22.10.49:158][344]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.10.49:177][344]Lightmass on DESKTOP-AS4V5HP: 1.40 sec total, 94 ms importing, 7 ms setup, 705 ms photons, 562 ms processing, 0 ms extra exporting [60/60 mappings]. Threads: 7.48 sec total, 647 ms processing.
+[2018.05.14-22.10.49:199][344]LogStaticLightingSystem: Illumination: 6.81 sec (39 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.10.49:199][344]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.10.49:199][344]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.10.49:872][344]DumpUnbuiltLightIteractions
+[2018.05.14-22.10.49:872][344]Lights with unbuilt interactions: 0
+[2018.05.14-22.10.49:872][344]
+[2018.05.14-22.10.49:872][344]Primitives with unbuilt interactions: 0
+[2018.05.14-22.10.49:891][345]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.10.49:891][345]MapCheck: New page: TwitchMap - May 14, 2018, 2:10:49 PM
+[2018.05.14-22.10.49:953][345]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.058ms to complete.
+[2018.05.14-22.11.54:428][974]MapCheck: New page: Map Check
+[2018.05.14-22.11.54:459][974]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.11.54:459][974]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.11.54:494][974]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.11.54:495][974]LogTemp:Display: Added material ShaderMap 0x0000021A17D37580 with Material 0x00000219E12F3D00 to ShaderMapsBeingCompiled
+[2018.05.14-22.11.54:498][974]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000021A17D37580
+[2018.05.14-22.11.54:500][974]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.11.54:502][974]LogTemp:Display: Added material ShaderMap 0x0000021A17D36E80 with Material 0x00000219DFEAE800 to ShaderMapsBeingCompiled
+[2018.05.14-22.11.54:504][974]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021A17D36E80
+[2018.05.14-22.11.54:505][974]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2018.05.14-22.11.54:507][974]LogTemp:Display: Added material ShaderMap 0x0000021A17D35280 with Material 0x00000219DFEAF400 to ShaderMapsBeingCompiled
+[2018.05.14-22.11.54:509][974]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, GameThreadShaderMap 0x0000021A17D35280
+[2018.05.14-22.11.55:126][974]LogTemp:Display: Finished compile of shader map 0x0000021A17D37580
+[2018.05.14-22.11.55:126][974]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000021A17D37580, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.11.55:126][974]LogTemp:Display: Marking material as finished 0x00000219E12F3D00
+[2018.05.14-22.11.55:129][974]LogTemp:Display: Finished compile of shader map 0x0000021A17D36E80
+[2018.05.14-22.11.55:129][974]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021A17D36E80, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.11.55:129][974]LogTemp:Display: Marking material as finished 0x00000219DFEAE800
+[2018.05.14-22.11.55:143][974]LogTemp:Display: Finished compile of shader map 0x0000021A17D35280
+[2018.05.14-22.11.55:143][974]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_4 complete, GameThreadShaderMap 0x0000021A17D35280, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4 as finished
+[2018.05.14-22.11.55:143][974]LogTemp:Display: Marking material as finished 0x00000219DFEAF400
+[2018.05.14-22.11.55:144][974]TextureStreamingBuild:Display: Compiling optional shaders took 0.654 seconds.
+[2018.05.14-22.11.55:147][974]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.11.55:153][974]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2018.05.14-22.11.55:162][974]LightingResults: New page: Lighting Build - May 14, 2018, 2:11:55 PM
+[2018.05.14-22.11.55:170][974]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.11.55:175][974]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.11.55:175][974]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.11.55:176][974]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.11.55:176][974]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.11.59:683][974]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.14-22.11.59:684][974]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.11.59:684][974]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.11.59:684][974]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.11.59:684][974]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.11.59:684][974]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.11.59:783][974]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.11.59:783][974]MapCheck: New page: TwitchMap - May 14, 2018, 2:11:59 PM
+[2018.05.14-22.11.59:783][974]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.11.59:843][974]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.074ms to complete.
+[2018.05.14-22.11.59:866][974]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.12.01:812][ 43]Job is a success!
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.01:968][ 44]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.01:988][ 44]Lightmass on DESKTOP-AS4V5HP: 1.37 sec total, 91 ms importing, 7 ms setup, 702 ms photons, 538 ms processing, 0 ms extra exporting [60/60 mappings]. Threads: 7.11 sec total, 614 ms processing.
+[2018.05.14-22.12.02:012][ 44]LogStaticLightingSystem: Illumination: 6.80 sec (36 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.12.02:012][ 44]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.12.02:012][ 44]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.12.02:698][ 44]DumpUnbuiltLightIteractions
+[2018.05.14-22.12.02:698][ 44]Lights with unbuilt interactions: 0
+[2018.05.14-22.12.02:698][ 44]
+[2018.05.14-22.12.02:698][ 44]Primitives with unbuilt interactions: 0
+[2018.05.14-22.12.02:716][ 45]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.12.02:716][ 45]MapCheck: New page: TwitchMap - May 14, 2018, 2:12:02 PM
+[2018.05.14-22.12.02:776][ 45]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.53ms to complete.
+[2018.05.14-22.12.10:498][680]MapCheck: New page: Map Check
+[2018.05.14-22.12.10:527][680]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.12.10:528][680]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.12.10:562][680]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.12.10:563][680]LogTemp:Display: Added material ShaderMap 0x0000021981442780 with Material 0x00000219E13AEE00 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.10:566][680]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000021981442780
+[2018.05.14-22.12.10:569][680]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.12.10:571][680]LogTemp:Display: Added material ShaderMap 0x0000021981443200 with Material 0x000002198C39BD00 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.10:573][680]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021981443200
+[2018.05.14-22.12.10:575][680]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
+[2018.05.14-22.12.10:577][680]LogTemp:Display: Added material ShaderMap 0x0000021981440800 with Material 0x000002198C39B700 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.10:579][680]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, GameThreadShaderMap 0x0000021981440800
+[2018.05.14-22.12.10:817][680]LogTemp:Display: Finished compile of shader map 0x0000021981442780
+[2018.05.14-22.12.10:817][680]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000021981442780, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.12.10:817][680]LogTemp:Display: Marking material as finished 0x00000219E13AEE00
+[2018.05.14-22.12.10:819][680]LogTemp:Display: Finished compile of shader map 0x0000021981443200
+[2018.05.14-22.12.10:819][680]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021981443200, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.12.10:819][680]LogTemp:Display: Marking material as finished 0x000002198C39BD00
+[2018.05.14-22.12.10:844][680]LogTemp:Display: Finished compile of shader map 0x0000021981440800
+[2018.05.14-22.12.10:844][680]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_5 complete, GameThreadShaderMap 0x0000021981440800, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5 as finished
+[2018.05.14-22.12.10:844][680]LogTemp:Display: Marking material as finished 0x000002198C39B700
+[2018.05.14-22.12.10:846][680]TextureStreamingBuild:Display: Compiling optional shaders took 0.288 seconds.
+[2018.05.14-22.12.10:849][680]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.12.10:855][680]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2018.05.14-22.12.10:864][680]LightingResults: New page: Lighting Build - May 14, 2018, 2:12:10 PM
+[2018.05.14-22.12.10:873][680]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.12.10:878][680]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.12.10:878][680]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.12.10:878][680]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.12.10:878][680]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.12.15:386][680]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.12.15:480][680]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.12.15:480][680]MapCheck: New page: TwitchMap - May 14, 2018, 2:12:15 PM
+[2018.05.14-22.12.15:480][680]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.12.15:540][680]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.243ms to complete.
+[2018.05.14-22.12.15:562][680]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.12.17:545][751]Job is a success!
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.17:716][752]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.17:734][752]Lightmass on DESKTOP-AS4V5HP: 1.41 sec total, 90 ms importing, 8 ms setup, 704 ms photons, 570 ms processing, 0 ms extra exporting [60/60 mappings]. Threads: 7.59 sec total, 615 ms processing.
+[2018.05.14-22.12.17:760][752]LogStaticLightingSystem: Illumination: 6.84 sec (40 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.12.17:760][752]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.12.17:760][752]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.12.18:391][752]DumpUnbuiltLightIteractions
+[2018.05.14-22.12.18:392][752]Lights with unbuilt interactions: 0
+[2018.05.14-22.12.18:392][752]
+[2018.05.14-22.12.18:392][752]Primitives with unbuilt interactions: 0
+[2018.05.14-22.12.18:410][753]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.12.18:410][753]MapCheck: New page: TwitchMap - May 14, 2018, 2:12:18 PM
+[2018.05.14-22.12.18:474][753]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.715ms to complete.
+[2018.05.14-22.12.19:565][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.12.20:108][873]LogSlate: Took 0.000469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.14-22.12.22:433][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.12.26:790][409]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.05.14-22.12.32:625][884]MapCheck: New page: Map Check
+[2018.05.14-22.12.32:660][884]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.12.32:660][884]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.12.32:696][884]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.12.32:698][884]LogTemp:Display: Added material ShaderMap 0x000002198B1CAE80 with Material 0x0000021996A20700 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.32:700][884]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000002198B1CAE80
+[2018.05.14-22.12.32:703][884]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.12.32:704][884]LogTemp:Display: Added material ShaderMap 0x0000021A2B9BAE80 with Material 0x00000219E13AFD00 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.32:706][884]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021A2B9BAE80
+[2018.05.14-22.12.32:707][884]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
+[2018.05.14-22.12.32:709][884]LogTemp:Display: Added material ShaderMap 0x0000021A2B9B8800 with Material 0x00000219E13AC400 to ShaderMapsBeingCompiled
+[2018.05.14-22.12.32:711][884]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, GameThreadShaderMap 0x0000021A2B9B8800
+[2018.05.14-22.12.33:313][884]LogTemp:Display: Finished compile of shader map 0x000002198B1CAE80
+[2018.05.14-22.12.33:313][884]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000002198B1CAE80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.12.33:313][884]LogTemp:Display: Marking material as finished 0x0000021996A20700
+[2018.05.14-22.12.33:314][884]LogTemp:Display: Finished compile of shader map 0x0000021A2B9BAE80
+[2018.05.14-22.12.33:314][884]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021A2B9BAE80, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.12.33:314][884]LogTemp:Display: Marking material as finished 0x00000219E13AFD00
+[2018.05.14-22.12.33:328][884]LogTemp:Display: Finished compile of shader map 0x0000021A2B9B8800
+[2018.05.14-22.12.33:328][884]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_6 complete, GameThreadShaderMap 0x0000021A2B9B8800, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6 as finished
+[2018.05.14-22.12.33:328][884]LogTemp:Display: Marking material as finished 0x00000219E13AC400
+[2018.05.14-22.12.33:329][884]TextureStreamingBuild:Display: Compiling optional shaders took 0.637 seconds.
+[2018.05.14-22.12.33:332][884]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.12.33:338][884]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2018.05.14-22.12.33:347][884]LightingResults: New page: Lighting Build - May 14, 2018, 2:12:33 PM
+[2018.05.14-22.12.33:355][884]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.12.33:361][884]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.12.33:361][884]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.12.33:362][884]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.12.33:362][884]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.12.37:868][884]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.12.37:962][884]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.12.37:962][884]MapCheck: New page: TwitchMap - May 14, 2018, 2:12:37 PM
+[2018.05.14-22.12.37:963][884]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.12.38:023][884]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.366ms to complete.
+[2018.05.14-22.12.38:045][884]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.12.39:929][949]Job is a success!
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 87 MB total VRAM
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.40:090][951]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.12.40:119][951]Lightmass on DESKTOP-AS4V5HP: 1.38 sec total, 90 ms importing, 6 ms setup, 703 ms photons, 546 ms processing, 0 ms extra exporting [60/60 mappings]. Threads: 7.23 sec total, 647 ms processing.
+[2018.05.14-22.12.40:132][951]LogStaticLightingSystem: Illumination: 6.73 sec (38 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.12.40:132][951]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.12.40:132][951]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.12.40:884][951]DumpUnbuiltLightIteractions
+[2018.05.14-22.12.40:884][951]Lights with unbuilt interactions: 0
+[2018.05.14-22.12.40:884][951]
+[2018.05.14-22.12.40:884][951]Primitives with unbuilt interactions: 0
+[2018.05.14-22.12.40:901][952]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.12.40:902][952]MapCheck: New page: TwitchMap - May 14, 2018, 2:12:40 PM
+[2018.05.14-22.12.40:962][952]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.918ms to complete.
+[2018.05.14-22.13.06:532][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-22.13.53:807][111]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.05.14-22.13.54:739][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.14.06:756][165]Cmd: TRANSACTION UNDO
+[2018.05.14-22.14.06:756][165]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.14.07:093][184]Cmd: TRANSACTION UNDO
+[2018.05.14-22.14.07:093][184]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.14.08:022][261]Cmd: TRANSACTION UNDO
+[2018.05.14-22.14.08:022][261]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.14.11:850][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-22.14.28:816][992]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2018.05.14-22.14.34:708][539]Cmd: EDIT COPY
+[2018.05.14-22.14.35:336][579]Cmd: EDIT PASTE
+[2018.05.14-22.15.15:152][276]LogGeometryMode:Warning: Unable to find BoxBrush14 Brush(s) in new BSP
+[2018.05.14-22.15.15:152][276]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.15.23:018][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.15.26:064][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.16.07:765][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.14-22.16.08:370][173]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn11)
+[2018.05.14-22.16.09:757][289]LogEditorViewport: Clicking on Actor (CTRL LMB): Pavlov_Spawn (Pavlov_Spawn10)
+[2018.05.14-22.16.11:081][403]LogEditorViewport: Clicking on Actor (CTRL LMB): Pavlov_Spawn (Pavlov_Spawn12)
+[2018.05.14-22.16.12:664][541]LogEditorViewport: Clicking on Actor (CTRL LMB): Pavlov_Spawn (Pavlov_Spawn3)
+[2018.05.14-22.16.13:812][640]LogEditorViewport: Clicking on Actor (CTRL LMB): Pavlov_GameLogic (Pavlov_GameLogic1)
+[2018.05.14-22.16.16:529][907]Cmd: EDIT COPY
+[2018.05.14-22.16.17:514][  5]Cmd: EDIT CUT
+[2018.05.14-22.16.17:519][  5]LogEditorActor: Deleted Actor: Pavlov_Spawn
+[2018.05.14-22.16.17:520][  5]LogEditorActor: Deleted Actor: Pavlov_Spawn
+[2018.05.14-22.16.17:520][  5]LogEditorActor: Deleted Actor: Pavlov_Spawn
+[2018.05.14-22.16.17:520][  5]LogEditorActor: Deleted Actor: Pavlov_Spawn
+[2018.05.14-22.16.17:520][  5]LogEditorActor: Deleted Actor: Pavlov_GameLogic
+[2018.05.14-22.16.17:531][  5]LogEditorActor: Deleted 5 Actors (0.013 secs)
+[2018.05.14-22.16.19:886][279]Cmd: TRANSACTION UNDO
+[2018.05.14-22.16.19:886][279]LogEditorTransaction: Undo Cut
+[2018.05.14-22.16.22:910][544]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.22:911][544]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.22:911][544]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.22:911][544]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.26:889][891]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.26:890][891]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.26:890][891]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.26:890][891]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.29:110][103]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.29:110][103]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.29:110][103]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.29:110][103]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.14-22.16.30:380][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.16.59:092][599]Cmd: EDIT COPY
+[2018.05.14-22.16.59:383][624]Cmd: EDIT PASTE
+[2018.05.14-22.17.59:589][185]LogSavePackage: Save=125.25ms
+[2018.05.14-22.17.59:589][185]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap2469EFB14D26540D79843FAC0484BD38.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.17.59:593][185]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.17.59:671][185]LogSavePackage: Save=25.71ms
+[2018.05.14-22.17.59:672][185]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap_BuiltData820D90294EBCB98D9447A4B94B4D1549.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset'
+[2018.05.14-22.17.59:674][185]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset
+[2018.05.14-22.20.35:555][812]LogGeometryMode:Warning: Unable to find BoxBrush_14 Brush(s) in new BSP
+[2018.05.14-22.20.35:555][812]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.21.20:488][523]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.05.14-22.21.27:972][172]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.21.31:510][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.22.20:754][765]MapCheck: New page: Map Check
+[2018.05.14-22.22.20:789][765]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.22.20:789][765]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.22.20:864][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.22.20:866][765]LogTemp:Display: Added material ShaderMap 0x00000219E2BFBC80 with Material 0x00000219979F9900 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.20:868][765]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x00000219E2BFBC80
+[2018.05.14-22.22.20:871][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.22.20:872][765]LogTemp:Display: Added material ShaderMap 0x00000219E2BFA400 with Material 0x0000021996A23700 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.20:874][765]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x00000219E2BFA400
+[2018.05.14-22.22.20:876][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
+[2018.05.14-22.22.20:878][765]LogTemp:Display: Added material ShaderMap 0x00000219E2BFAE80 with Material 0x0000021996A21600 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.20:880][765]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, GameThreadShaderMap 0x00000219E2BFAE80
+[2018.05.14-22.22.21:465][765]LogTemp:Display: Finished compile of shader map 0x00000219E2BFBC80
+[2018.05.14-22.22.21:465][765]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x00000219E2BFBC80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.22.21:465][765]LogTemp:Display: Marking material as finished 0x00000219979F9900
+[2018.05.14-22.22.21:490][765]LogTemp:Display: Finished compile of shader map 0x00000219E2BFA400
+[2018.05.14-22.22.21:490][765]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x00000219E2BFA400, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.22.21:490][765]LogTemp:Display: Marking material as finished 0x0000021996A23700
+[2018.05.14-22.22.21:492][765]LogTemp:Display: Finished compile of shader map 0x00000219E2BFAE80
+[2018.05.14-22.22.21:492][765]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_7 complete, GameThreadShaderMap 0x00000219E2BFAE80, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7 as finished
+[2018.05.14-22.22.21:492][765]LogTemp:Display: Marking material as finished 0x0000021996A21600
+[2018.05.14-22.22.21:493][765]TextureStreamingBuild:Display: Compiling optional shaders took 0.632 seconds.
+[2018.05.14-22.22.21:498][765]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2018.05.14-22.22.21:505][765]TextureStreamingBuild:Display: Build Texture Streaming took 0.007 seconds.
+[2018.05.14-22.22.21:514][765]LightingResults: New page: Lighting Build - May 14, 2018, 2:22:21 PM
+[2018.05.14-22.22.21:523][765]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.22.21:528][765]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.22.21:528][765]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.22.21:529][765]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.22.21:529][765]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.22.26:036][765]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.22.26:036][765]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.22.26:036][765]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.22.26:036][765]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.22.26:036][765]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.22.26:168][765]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.22.26:168][765]MapCheck: New page: TwitchMap - May 14, 2018, 2:22:26 PM
+[2018.05.14-22.22.26:169][765]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.22.26:230][765]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 61.576ms to complete.
+[2018.05.14-22.22.26:252][765]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.22.28:256][836]Job is a success!
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 87 MB total VRAM
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 87 MB total VRAM
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512) - 87 MB total VRAM
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512) - 87 MB total VRAM
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 87 MB total VRAM
+[2018.05.14-22.22.28:528][837]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 87 MB total VRAM
+[2018.05.14-22.22.28:553][837]Lightmass on DESKTOP-AS4V5HP: 1.59 sec total, 91 ms importing, 7 ms setup, 717 ms photons, 736 ms processing, 0 ms extra exporting [126/126 mappings]. Threads: 10.0 sec total, 2.17 sec processing.
+[2018.05.14-22.22.28:584][837]LogStaticLightingSystem: Illumination: 7.02 sec (129 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.22.28:584][837]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.05.14-22.22.28:584][837]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.22.29:077][837]DumpUnbuiltLightIteractions
+[2018.05.14-22.22.29:078][837]Lights with unbuilt interactions: 0
+[2018.05.14-22.22.29:078][837]
+[2018.05.14-22.22.29:078][837]Primitives with unbuilt interactions: 0
+[2018.05.14-22.22.29:094][838]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.22.29:095][838]MapCheck: New page: TwitchMap - May 14, 2018, 2:22:29 PM
+[2018.05.14-22.22.29:154][838]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.868ms to complete.
+[2018.05.14-22.22.51:775][704]MapCheck: New page: Map Check
+[2018.05.14-22.22.51:811][704]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.22.51:812][704]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.22.51:896][704]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.22.51:897][704]LogTemp:Display: Added material ShaderMap 0x0000021988A55980 with Material 0x00000219A7F5A800 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.51:900][704]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000021988A55980
+[2018.05.14-22.22.51:903][704]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.22.51:904][704]LogTemp:Display: Added material ShaderMap 0x0000021988A55280 with Material 0x00000219A7F58700 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.51:906][704]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021988A55280
+[2018.05.14-22.22.51:908][704]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, compiling. 
+[2018.05.14-22.22.51:909][704]LogTemp:Display: Added material ShaderMap 0x0000021988A55600 with Material 0x00000219979F9900 to ShaderMapsBeingCompiled
+[2018.05.14-22.22.51:911][704]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, GameThreadShaderMap 0x0000021988A55600
+[2018.05.14-22.22.52:500][704]LogTemp:Display: Finished compile of shader map 0x0000021988A55980
+[2018.05.14-22.22.52:500][704]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000021988A55980, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.22.52:500][704]LogTemp:Display: Marking material as finished 0x00000219A7F5A800
+[2018.05.14-22.22.52:515][704]LogTemp:Display: Finished compile of shader map 0x0000021988A55600
+[2018.05.14-22.22.52:515][704]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_8 complete, GameThreadShaderMap 0x0000021988A55600, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8 as finished
+[2018.05.14-22.22.52:515][704]LogTemp:Display: Marking material as finished 0x00000219979F9900
+[2018.05.14-22.22.52:516][704]LogTemp:Display: Finished compile of shader map 0x0000021988A55280
+[2018.05.14-22.22.52:516][704]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021988A55280, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.22.52:516][704]LogTemp:Display: Marking material as finished 0x00000219A7F58700
+[2018.05.14-22.22.52:518][704]TextureStreamingBuild:Display: Compiling optional shaders took 0.626 seconds.
+[2018.05.14-22.22.52:521][704]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.22.52:528][704]TextureStreamingBuild:Display: Build Texture Streaming took 0.007 seconds.
+[2018.05.14-22.22.52:537][704]LightingResults: New page: Lighting Build - May 14, 2018, 2:22:52 PM
+[2018.05.14-22.22.52:545][704]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.22.52:551][704]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.22.52:551][704]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.22.52:552][704]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.22.52:552][704]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.22.57:058][704]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.22.57:058][704]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.22.57:058][704]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.22.57:058][704]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.22.57:058][704]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.22.57:155][704]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.22.57:155][704]MapCheck: New page: TwitchMap - May 14, 2018, 2:22:57 PM
+[2018.05.14-22.22.57:156][704]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.22.57:216][704]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.085ms to complete.
+[2018.05.14-22.22.57:238][704]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.22.59:228][773]Job is a success!
+[2018.05.14-22.22.59:509][774]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 88 MB total VRAM
+[2018.05.14-22.22.59:510][774]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 88 MB total VRAM
+[2018.05.14-22.22.59:510][774]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512) - 88 MB total VRAM
+[2018.05.14-22.22.59:510][774]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512) - 88 MB total VRAM
+[2018.05.14-22.22.59:510][774]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 88 MB total VRAM
+[2018.05.14-22.22.59:510][774]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 88 MB total VRAM
+[2018.05.14-22.22.59:546][774]Lightmass on DESKTOP-AS4V5HP: 1.62 sec total, 89 ms importing, 7 ms setup, 719 ms photons, 762 ms processing, 0 ms extra exporting [126/126 mappings]. Threads: 10.4 sec total, 2.33 sec processing.
+[2018.05.14-22.22.59:566][774]LogStaticLightingSystem: Illumination: 6.97 sec (129 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.22.59:566][774]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.05.14-22.22.59:566][774]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.23.00:073][774]DumpUnbuiltLightIteractions
+[2018.05.14-22.23.00:073][774]Lights with unbuilt interactions: 0
+[2018.05.14-22.23.00:073][774]
+[2018.05.14-22.23.00:073][774]Primitives with unbuilt interactions: 0
+[2018.05.14-22.23.00:090][775]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.23.00:090][775]MapCheck: New page: TwitchMap - May 14, 2018, 2:23:00 PM
+[2018.05.14-22.23.00:152][775]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.533ms to complete.
+[2018.05.14-22.23.36:830][863]Cmd: DELETE
+[2018.05.14-22.23.36:830][863]Cmd: ACTOR DELETE
+[2018.05.14-22.23.36:831][863]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.05.14-22.23.36:840][863]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.14-22.23.50:163][102]Cmd: TRANSACTION UNDO
+[2018.05.14-22.23.50:163][102]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.23.50:575][126]Cmd: TRANSACTION UNDO
+[2018.05.14-22.23.50:576][126]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.23.51:016][162]Cmd: TRANSACTION UNDO
+[2018.05.14-22.23.51:016][162]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.23.51:443][199]Cmd: TRANSACTION UNDO
+[2018.05.14-22.23.51:443][199]LogEditorTransaction: Undo Create Actors
+[2018.05.14-22.24.05:656][475]Cmd: EDIT COPY
+[2018.05.14-22.24.06:235][498]Cmd: EDIT PASTE
+[2018.05.14-22.24.29:046][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.14-22.24.29:602][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.25.08:188][825]MapCheck: New page: Map Check
+[2018.05.14-22.25.08:224][825]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.25.08:224][825]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.25.08:292][825]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.25.08:294][825]LogTemp:Display: Added material ShaderMap 0x000002198BDD8100 with Material 0x00000219E17CDC00 to ShaderMapsBeingCompiled
+[2018.05.14-22.25.08:296][825]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000002198BDD8100
+[2018.05.14-22.25.08:298][825]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.25.08:300][825]LogTemp:Display: Added material ShaderMap 0x000002198BDDB580 with Material 0x00000219E17CCD00 to ShaderMapsBeingCompiled
+[2018.05.14-22.25.08:301][825]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x000002198BDDB580
+[2018.05.14-22.25.08:303][825]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_9, compiling. 
+[2018.05.14-22.25.08:305][825]LogTemp:Display: Added material ShaderMap 0x000002198BDD9280 with Material 0x00000219E0E0BA00 to ShaderMapsBeingCompiled
+[2018.05.14-22.25.08:306][825]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_9, GameThreadShaderMap 0x000002198BDD9280
+[2018.05.14-22.25.08:894][825]LogTemp:Display: Finished compile of shader map 0x000002198BDD8100
+[2018.05.14-22.25.08:894][825]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000002198BDD8100, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.25.08:894][825]LogTemp:Display: Marking material as finished 0x00000219E17CDC00
+[2018.05.14-22.25.08:910][825]LogTemp:Display: Finished compile of shader map 0x000002198BDD9280
+[2018.05.14-22.25.08:910][825]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_9 complete, GameThreadShaderMap 0x000002198BDD9280, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_9 as finished
+[2018.05.14-22.25.08:910][825]LogTemp:Display: Marking material as finished 0x00000219E0E0BA00
+[2018.05.14-22.25.08:911][825]LogTemp:Display: Finished compile of shader map 0x000002198BDDB580
+[2018.05.14-22.25.08:911][825]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x000002198BDDB580, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.25.08:911][825]LogTemp:Display: Marking material as finished 0x00000219E17CCD00
+[2018.05.14-22.25.08:913][825]TextureStreamingBuild:Display: Compiling optional shaders took 0.624 seconds.
+[2018.05.14-22.25.08:916][825]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.05.14-22.25.08:924][825]TextureStreamingBuild:Display: Build Texture Streaming took 0.008 seconds.
+[2018.05.14-22.25.08:933][825]LightingResults: New page: Lighting Build - May 14, 2018, 2:25:08 PM
+[2018.05.14-22.25.08:943][825]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.25.08:948][825]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.25.08:948][825]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.25.08:949][825]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.25.08:949][825]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.25.13:456][825]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.25.13:456][825]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.25.13:456][825]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.25.13:456][825]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.25.13:456][825]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.25.13:586][825]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.25.13:586][825]MapCheck: New page: TwitchMap - May 14, 2018, 2:25:13 PM
+[2018.05.14-22.25.13:587][825]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.25.13:650][825]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 63.536ms to complete.
+[2018.05.14-22.25.13:672][825]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.25.15:682][897]Job is a success!
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 99 MB total VRAM
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 99 MB total VRAM
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512) - 99 MB total VRAM
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512) - 99 MB total VRAM
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 99 MB total VRAM
+[2018.05.14-22.25.15:959][898]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 99 MB total VRAM
+[2018.05.14-22.25.15:983][898]Lightmass on DESKTOP-AS4V5HP: 1.62 sec total, 96 ms importing, 7 ms setup, 719 ms photons, 766 ms processing, 0 ms extra exporting [126/126 mappings]. Threads: 10.5 sec total, 2.26 sec processing.
+[2018.05.14-22.25.16:020][898]LogStaticLightingSystem: Illumination: 7.04 sec (136 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.25.16:020][898]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.05.14-22.25.16:020][898]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.25.16:461][898]DumpUnbuiltLightIteractions
+[2018.05.14-22.25.16:461][898]Lights with unbuilt interactions: 0
+[2018.05.14-22.25.16:461][898]
+[2018.05.14-22.25.16:461][898]Primitives with unbuilt interactions: 0
+[2018.05.14-22.25.16:501][899]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.25.16:501][899]MapCheck: New page: TwitchMap - May 14, 2018, 2:25:16 PM
+[2018.05.14-22.25.16:563][899]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.69ms to complete.
+[2018.05.14-22.25.52:126][925]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.25.54:795][161]Cmd: DELETE
+[2018.05.14-22.25.54:795][161]Cmd: ACTOR DELETE
+[2018.05.14-22.25.54:797][161]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.25.54:818][161]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.05.14-22.25.57:583][395]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.26.07:054][191]Cmd: DELETE
+[2018.05.14-22.26.07:054][191]Cmd: ACTOR DELETE
+[2018.05.14-22.26.07:055][191]LogEditorActor: Deleted Actor: Brush
+[2018.05.14-22.26.07:074][191]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.05.14-22.26.09:686][421]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.28.26:763][ 78]LogEditor: Attempting to add actor of class 'Pavlov_Ladder' to level at -2815.00,-529.00,608.00
+[2018.05.14-22.28.27:826][166]LogEditor: Attempting to add actor of class 'Pavlov_Ladder' to level at -2312.00,-355.00,40.00
+[2018.05.14-22.28.38:213][ 66]Cmd: DELETE
+[2018.05.14-22.28.38:213][ 66]Cmd: ACTOR DELETE
+[2018.05.14-22.28.38:214][ 66]LogEditorActor: Deleted Actor: Pavlov_Ladder
+[2018.05.14-22.28.38:224][ 66]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.14-22.28.44:056][662]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2018.05.14-22.28.56:077][691]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.05.14-22.29.32:440][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2018.05.14-22.29.39:595][169]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.14-22.29.58:932][119]Cmd: EDIT COPY
+[2018.05.14-22.29.59:152][141]Cmd: EDIT PASTE
+[2018.05.14-22.30.31:170][200]Cmd: EDIT COPY
+[2018.05.14-22.30.31:375][220]Cmd: EDIT PASTE
+[2018.05.14-22.30.50:459][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): BlockingVolume (BlockingVolume)
+[2018.05.14-22.30.57:672][646]Cmd: EDIT COPY
+[2018.05.14-22.30.58:177][695]Cmd: EDIT PASTE
+[2018.05.14-22.31.09:792][810]Cmd: TRANSACTION UNDO
+[2018.05.14-22.31.09:792][810]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.32.05:957][  7]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.32.09:685][361]Cmd: TRANSACTION UNDO
+[2018.05.14-22.32.09:685][361]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.14-22.32.10:790][437]Cmd: TRANSACTION UNDO
+[2018.05.14-22.32.10:790][437]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.32.10:804][437]LogActorComponent: ~FComponentReregisterContext: (/Game/CustomMaps/UGC1386062767/TwitchMap.TwitchMap:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2018.05.14-22.32.10:811][437]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2018.05.14-22.32.10:812][437]LogGeometryMode:Warning: Unable to resolve BoxBrush22 Brush in new BSP, see above
+[2018.05.14-22.32.10:812][437]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.32.11:580][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.32.37:982][948]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.14-22.33.10:805][788]LogSavePackage: Save=548.75ms
+[2018.05.14-22.33.10:805][788]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMapEE23E5174085CA438BCC7AA7D50A6014.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.33.10:810][788]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.33.10:923][788]LogSavePackage: Save=47.73ms
+[2018.05.14-22.33.10:923][788]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap_BuiltDataB47427A1421429451E801DBA0B63BBBC.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset'
+[2018.05.14-22.33.10:926][788]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset
+[2018.05.14-22.33.47:301][206]Cmd: TRANSACTION UNDO
+[2018.05.14-22.33.47:301][206]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.33.47:874][229]Cmd: TRANSACTION UNDO
+[2018.05.14-22.33.47:875][229]LogEditorTransaction: Undo Scale Actors
+[2018.05.14-22.33.58:022][134]LogGeometryMode:Warning: Unable to find BoxBrush11 Brush(s) in new BSP
+[2018.05.14-22.33.58:022][134]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.05.14-22.34.02:234][538]Cmd: TRANSACTION UNDO
+[2018.05.14-22.34.02:234][538]LogEditorTransaction: Undo Move Actors
+[2018.05.14-22.34.19:930][ 94]LogSavePackage: Save=427.28ms
+[2018.05.14-22.34.19:930][ 94]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap08BCCB764B60C16BFF7029BDAF98B914.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.34.19:934][ 94]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.34.20:019][ 94]LogSavePackage: Save=47.47ms
+[2018.05.14-22.34.20:019][ 94]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap_BuiltData242625344974D50BCF6D7F8779AA26D5.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset'
+[2018.05.14-22.34.20:021][ 94]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset
+[2018.05.14-22.34.25:331][584]CustomMapToolsLog: Synced item
+[2018.05.14-22.34.27:208][769]CustomMapToolsLog: MapURL = /Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.34.27:208][769]CustomMapToolsLog: Cook command: "C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Pavlov.uproject"  -run=cook -targetplatform=WindowsNoEditor+LinuxServer -UnVersioned -map=/Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.34.49:182][774]CustomMapToolsLog: Adding to paklist definition.uasset
+[2018.05.14-22.34.49:182][774]CustomMapToolsLog: Adding to paklist SM_Template_Map_Floor.uasset
+[2018.05.14-22.34.49:182][774]CustomMapToolsLog: Adding to paklist TwitchMap.umap
+[2018.05.14-22.34.49:182][774]CustomMapToolsLog: Adding to paklist TwitchMap_BuiltData.uasset
+[2018.05.14-22.34.57:211][444]MapCheck: New page: Map Check
+[2018.05.14-22.34.57:247][444]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.14-22.34.57:247][444]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.14-22.34.57:423][444]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.14-22.34.57:425][444]LogTemp:Display: Added material ShaderMap 0x0000021A593D8F00 with Material 0x00000219BAEEC100 to ShaderMapsBeingCompiled
+[2018.05.14-22.34.57:427][444]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000021A593D8F00
+[2018.05.14-22.34.57:430][444]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.14-22.34.57:431][444]LogTemp:Display: Added material ShaderMap 0x0000021A593D9600 with Material 0x00000219BAEEFA00 to ShaderMapsBeingCompiled
+[2018.05.14-22.34.57:433][444]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000021A593D9600
+[2018.05.14-22.34.57:435][444]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_12, compiling. 
+[2018.05.14-22.34.57:437][444]LogTemp:Display: Added material ShaderMap 0x0000021A593DA780 with Material 0x00000219970C2800 to ShaderMapsBeingCompiled
+[2018.05.14-22.34.57:439][444]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_12, GameThreadShaderMap 0x0000021A593DA780
+[2018.05.14-22.34.58:035][444]LogTemp:Display: Finished compile of shader map 0x0000021A593D9600
+[2018.05.14-22.34.58:035][444]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000021A593D9600, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
+[2018.05.14-22.34.58:035][444]LogTemp:Display: Marking material as finished 0x00000219BAEEFA00
+[2018.05.14-22.34.58:036][444]LogTemp:Display: Finished compile of shader map 0x0000021A593D8F00
+[2018.05.14-22.34.58:036][444]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000021A593D8F00, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2018.05.14-22.34.58:036][444]LogTemp:Display: Marking material as finished 0x00000219BAEEC100
+[2018.05.14-22.34.58:052][444]LogTemp:Display: Finished compile of shader map 0x0000021A593DA780
+[2018.05.14-22.34.58:052][444]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_12 complete, GameThreadShaderMap 0x0000021A593DA780, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_12 as finished
+[2018.05.14-22.34.58:052][444]LogTemp:Display: Marking material as finished 0x00000219970C2800
+[2018.05.14-22.34.58:055][444]TextureStreamingBuild:Display: Compiling optional shaders took 0.635 seconds.
+[2018.05.14-22.34.58:061][444]LogLevel:Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.05.14-22.34.58:069][444]TextureStreamingBuild:Display: Build Texture Streaming took 0.008 seconds.
+[2018.05.14-22.34.58:077][444]LightingResults: New page: Lighting Build - May 14, 2018, 2:34:58 PM
+[2018.05.14-22.34.58:088][444]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.14-22.34.58:099][444]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.14-22.34.58:099][444]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.14-22.34.58:099][444]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.14-22.34.58:099][444]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10052
+[2018.05.14-22.35.02:605][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.14-22.35.02:605][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.14-22.35.02:605][444]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.14-22.35.02:605][444]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.14-22.35.02:605][444]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.14-22.35.02:711][444]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.14-22.35.02:711][444]MapCheck: New page: TwitchMap - May 14, 2018, 2:35:02 PM
+[2018.05.14-22.35.02:711][444]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.14-22.35.02:771][444]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.075ms to complete.
+[2018.05.14-22.35.02:794][444]LogEditorBuildUtils: Build time 0:05
+[2018.05.14-22.35.04:999][525]Job is a success!
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 92 MB total VRAM
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 92 MB total VRAM
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512) - 92 MB total VRAM
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512) - 92 MB total VRAM
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 92 MB total VRAM
+[2018.05.14-22.35.05:236][526]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 92 MB total VRAM
+[2018.05.14-22.35.05:260][526]Lightmass on DESKTOP-AS4V5HP: 1.71 sec total, 96 ms importing, 9 ms setup, 732 ms photons, 843 ms processing, 0 ms extra exporting [247/247 mappings]. Threads: 11.6 sec total, 4.00 sec processing.
+[2018.05.14-22.35.05:303][526]LogStaticLightingSystem: Illumination: 7.17 sec (66 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.05.14-22.35.05:303][526]LogStaticLightingSystem: Lightmap texture memory:  1.0 MB (0.5 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.05.14-22.35.05:303][526]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.05.14-22.35.05:621][526]DumpUnbuiltLightIteractions
+[2018.05.14-22.35.05:621][526]Lights with unbuilt interactions: 0
+[2018.05.14-22.35.05:621][526]
+[2018.05.14-22.35.05:621][526]Primitives with unbuilt interactions: 0
+[2018.05.14-22.35.05:663][527]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.14-22.35.05:664][527]MapCheck: New page: TwitchMap - May 14, 2018, 2:35:05 PM
+[2018.05.14-22.35.05:724][527]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.466ms to complete.
+[2018.05.14-22.35.11:906][ 56]CustomMapToolsLog: MapURL = /Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.35.11:906][ 56]CustomMapToolsLog: Cook command: "C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Pavlov.uproject"  -run=cook -targetplatform=WindowsNoEditor+LinuxServer -UnVersioned -map=/Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.35.32:361][727]LogSavePackage: Save=439.19ms
+[2018.05.14-22.35.32:361][727]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap858B902E4E13856C5AFF5AB75AA626C7.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap'
+[2018.05.14-22.35.32:362][727]LogFileManager:Warning: DeleteFile was unable to delete 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap', retrying in .5s...
+[2018.05.14-22.35.32:862][727]LogFileManager:Warning: DeleteFile recovered during retry!
+[2018.05.14-22.35.32:882][727]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap.umap
+[2018.05.14-22.35.32:914][727]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.14-22.35.32:980][727]LogSavePackage: Save=44.31ms
+[2018.05.14-22.35.32:980][727]LogSavePackage: Moving 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/TwitchMap_BuiltDataE55CE4D64F5C527A267A0DA983C14607.tmp' to 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset'
+[2018.05.14-22.35.32:983][727]LogSavePackage:Display: Finished SavePackage C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/CustomMaps/UGC1386062767/TwitchMap_BuiltData.uasset
+[2018.05.14-22.35.33:180][739]CustomMapToolsLog: Adding to paklist definition.uasset
+[2018.05.14-22.35.33:180][739]CustomMapToolsLog: Adding to paklist SM_Template_Map_Floor.uasset
+[2018.05.14-22.35.33:180][739]CustomMapToolsLog: Adding to paklist TwitchMap.umap
+[2018.05.14-22.35.33:180][739]CustomMapToolsLog: Adding to paklist TwitchMap_BuiltData.uasset
+[2018.05.14-22.35.35:677][951]CustomMapToolsLog: MapURL = /Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.35.35:677][951]CustomMapToolsLog: Cook command: "C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Pavlov.uproject"  -run=cook -targetplatform=WindowsNoEditor+LinuxServer -UnVersioned -map=/Game/CustomMaps/UGC1386062767/TwitchMap
+[2018.05.14-22.35.56:662][570]CustomMapToolsLog: Adding to paklist definition.uasset
+[2018.05.14-22.35.56:662][570]CustomMapToolsLog: Adding to paklist SM_Template_Map_Floor.uasset
+[2018.05.14-22.35.56:662][570]CustomMapToolsLog: Adding to paklist TwitchMap.umap
+[2018.05.14-22.35.56:662][570]CustomMapToolsLog: Adding to paklist TwitchMap_BuiltData.uasset
+[2018.05.14-22.36.08:990][712]Cmd: QUIT_EDITOR
+[2018.05.14-22.36.09:032][712]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.14-22.36.09:068][712]LogExit: Preparing to exit.
+[2018.05.14-22.36.10:212][712]LogExit: Editor shut down
+[2018.05.14-22.36.10:213][712]LogExit: Transaction tracking system shut down
+[2018.05.14-22.36.10:320][712]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.14-22.36.10:321][712]LogExit: Object subsystem successfully closed.
+[2018.05.14-22.36.10:352][712]LogD3D11RHI: Shutdown
+[2018.05.14-22.36.10:352][712]LogD3D11RHI: CleanupD3DDevice
+[2018.05.14-22.36.10:558][712]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (506)
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2018.05.14-22.36.10:567][712]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2018.05.14-22.36.10:567][712]LogDirectoryWatcher: A directory notification for 'E:/Epic/UE_4.15/FeaturePacks/' was aborted.
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2018.05.14-22.36.10:572][712]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/Collections/' was aborted.
+[2018.05.14-22.36.10:572][712]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/Developers/Kaizien/Collections/' was aborted.
+[2018.05.14-22.36.10:572][712]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Saved/Collections/' was aborted.
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2018.05.14-22.36.10:572][712]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module CustomMapTools (466)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module Media (445)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2018.05.14-22.36.10:573][712]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2018.05.14-22.36.10:574][712]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2018.05.14-22.36.10:574][712]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2018.05.14-22.36.10:574][712]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2018.05.14-22.36.11:548][712]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2018.05.14-22.36.11:549][712]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2018.05.14-22.36.11:592][712]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2018.05.14-22.36.11:593][712]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2018.05.14-22.36.11:593][712]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2018.05.14-22.36.11:594][712]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2018.05.14-22.36.11:595][712]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module PavlovProxy (304)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2018.05.14-22.36.11:601][712]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2018.05.14-22.36.11:602][712]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2018.05.14-22.36.11:603][712]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.05.14-22.36.11:604][712]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2018.05.14-22.36.11:604][712]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2018.05.14-22.36.11:604][712]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2018.05.14-22.36.11:604][712]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.05.14-22.36.11:704][712]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.05.14-22.36.11:804][712]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.05.14-22.36.11:807][712]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.05.14-22.36.11:808][712]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.05.14-22.36.11:808][712]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.05.14-22.36.11:808][712]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.05.14-22.36.11:808][712]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.05.14-22.36.11:808][712]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.05.14-22.36.11:811][712]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.05.14-22.36.11:961][712]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.14-22.36.11:961][712]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Content/' was aborted.
+[2018.05.14-22.36.11:961][712]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.14-22.36.11:961][712]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaizien/Documents/Unreal Projects/UnrealEngine-PavlovVRWorkshop/Plugins/CustomMapTools/Content/' was aborted.
+[2018.05.14-22.36.11:962][712]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.05.14-22.36.11:968][712]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.05.14-22.36.12:044][712]LogDerivedDataCache: Shutdown
+[2018.05.14-22.36.12:044][712]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.05.14-22.36.12:044][712]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.05.14-22.36.12:044][712]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.05.14-22.36.12:045][712]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.05.14-22.36.12:046][712]LogOnline:Display: Unloading online subsystem: NULL
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.05.14-22.36.12:046][712]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.05.14-22.36.12:046][712]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.14-22.36.12:046][712]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7729A759-44BF-F0BA-E2B9-EC9A326C7F19%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=64a638fb45afe366e511a1ae3f5feb64%7Cc084440306eb4df9b292fdc98fa98ccb%7Ce3201e7e-f2f5-4bce-b0c9-66be5621e1b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.14-22.36.12:058][712]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.05.14-22.36.12:060][712]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.05.14-22.36.12:060][712]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.05.14-22.36.12:060][712]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.05.14-22.36.12:060][712]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.05.14-22.36.12:060][712]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.14-22.36.12:065][712]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.14-22.36.12:069][712]LogExit: Exiting.
+[2018.05.14-22.36.12:087][712]Log file closed, 05/14/18 18:36:12
